@@ -4,10 +4,11 @@ import datetime as dt
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
+from PIL import Image, ImageTk
 
 db = None
+dir_path = os.path.dirname(os.path.realpath(__file__))
 try:
-    dir_path = os.path.dirname(os.path.realpath(__file__))
     conn = dbc.connect(r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ='+dir_path+'/DB_Memory.accdb;')
     db = conn.cursor()
 except Exception as e:
@@ -133,6 +134,8 @@ def search():
 
 # GUI Setup
 root = tk.Tk()
+img = tk.PhotoImage(file=dir_path+'/note-icon.png')
+root.iconphoto(False, img)
 root.title("To-Do List")
 bgcolor = '#2F2F2F'
 entrycolor = '#6F6F6F'
