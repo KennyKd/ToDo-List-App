@@ -31,11 +31,21 @@ All of the added and stored tasks are viewed in this list box. Each entry are di
 
 Every entry of tasks stored in the list consists of 3 parts: its **name**, **status**, and the **reminder date & time**. With this knowledge, we can choose which part of the entrries' information we want to select from and enter certain keywords which associates with the type of entries we are looking for.
 
-![VIEW TASK](https://github.com/KennyKd/ToDo-List-App/blob/main/images/Screenshot_task_name.png?raw=true)
+![FILTER BY NAME](https://github.com/KennyKd/ToDo-List-App/blob/main/images/Screenshot_search_name.png?raw=true)
 <sup>**Search by task names**</sup>
 
-![VIEW TASK](https://github.com/KennyKd/ToDo-List-App/blob/main/images/Screenshot_search_status.png?raw=true)
+![FILTER BY STATUS](https://github.com/KennyKd/ToDo-List-App/blob/main/images/Screenshot_search_status.png?raw=true)
 <sup>**Search by task status**</sup>
 
-![VIEW TASK](https://github.com/KennyKd/ToDo-List-App/blob/main/images/Screenshot_%20reminder.png?raw=true)
+![FILTER BY REMINDER](https://github.com/KennyKd/ToDo-List-App/blob/main/images/Screenshot_search_reminder.png?raw=true)
 <sup>**Search by task raminder**</sup>
+
+### **Mark Task Completion & Task Deletion**
+
+![OTHER FEATURES](https://github.com/KennyKd/ToDo-List-App/blob/main/images/Screenshot_other_buttons.png?raw=true)
+
+A task can be marked **'Comeplete'** or **'Incomplete'** when it is selected in the list box, then the **'Mark Complete'** button is pressed (to mark the selected task **complete**) or the **'Mark Incomplete'** button is pressed (to mark the selected task **incomplete**).
+A task can also be deleted by selecting a task and pressing the **'Delete Task'** button (removing the task from the list).
+Press the **'Exit'** button for when you are done with the program and would like to close the program.
+
+Start "bookmarking" your actvities today!
