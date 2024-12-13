@@ -4,7 +4,6 @@ import datetime as dt
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
-from PIL import Image, ImageTk
 
 db = None
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -134,7 +133,7 @@ def search():
 
 # GUI Setup
 root = tk.Tk()
-img = tk.PhotoImage(file=dir_path+'/note-icon.png')
+img = tk.PhotoImage(file=dir_path+'/images/note-icon.png')
 root.iconphoto(False, img)
 root.title("To-Do List")
 bgcolor = '#2F2F2F'
